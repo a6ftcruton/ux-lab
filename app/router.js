@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('categories', { path: '/' });
+  this.route('input');
+  this.route('navigation');
+  this.route('social');
 });
 
 export default Router;
