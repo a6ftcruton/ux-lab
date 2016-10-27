@@ -1,0 +1,5 @@
+Todos:
+------------------
+1. use slug for url
+2. set up examples model
+3. scss

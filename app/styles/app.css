@@ -1,0 +1,7 @@
+.unstyled-link {
+  text-decoration: none;
+  color: black;
+}
+.unstyled-link:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
