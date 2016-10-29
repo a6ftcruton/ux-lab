@@ -1,6 +1,6 @@
 <h1>Categories</h1>
 {{#each model as |category|}}
-  {{#link-to "categories.show" category.id class="unstyled-link"}}
+  {{#link-to "categories.category" category.id class="unstyled-link"}}
     {{category.name}}
   {{/link-to}}
 {{/each}}
